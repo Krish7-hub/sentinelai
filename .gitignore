@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.pyc
+.env
+sentinel_token.json
+sentinel_agent.log
+enforcement_log.json
+node_modules/
+dashboard/dist/
+dashboard/node_modules/
+*.db
