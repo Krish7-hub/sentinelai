@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback, useRef } from "react";
 
-const API = "http://localhost:8000/api";
-const WS_URL = "ws://localhost:8000/ws/events";
+const API = (import.meta.env.VITE_API_URL ?? "http://localhost:8000") + "/api";
+const WS_URL = (import.meta.env.VITE_API_URL ?? "http://localhost:8000").replace("https://","wss://").replace("http://","ws://") + "/ws/events";
 
 /* ─── GLOBAL STYLES ─── */
 const STYLES = `
