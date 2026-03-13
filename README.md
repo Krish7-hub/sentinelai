@@ -516,3 +516,5 @@ WS   /ws/events?token={jwt}       → Real-time event stream
 | USB disable no effect | Agent must run as Administrator on Windows |
 | No email alerts | Verify SMTP_USER, SMTP_PASS, ALERT_EMAIL in .env |
 | Risk not decaying | Check background scheduler started (look for "Scheduler started" in logs) |
+#   s e n t i n a l a i  
+ 
